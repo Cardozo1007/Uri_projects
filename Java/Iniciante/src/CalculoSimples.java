@@ -6,8 +6,10 @@ import java.util.Scanner;
 
 public class CalculoSimples {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) throws Exception{
 		Locale.setDefault(Locale.US);
+		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		DecimalFormat df = new DecimalFormat("0.00");

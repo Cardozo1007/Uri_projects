@@ -6,6 +6,7 @@ public class OMaior {
 
 	public static void main(String[] args) throws Exception{
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+		@SuppressWarnings("resource")
 		Scanner scan = new Scanner(System.in);
 		
 		int a = scan.nextInt();

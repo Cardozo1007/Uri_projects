@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class DistanciaEntreDoisPontos {
 
 	public static void main(String[] args) throws Exception{
+		@SuppressWarnings("resource")
 		Scanner scan = new Scanner(System.in);
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		DecimalFormat df = new DecimalFormat("0.0000");

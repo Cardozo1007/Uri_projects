@@ -6,6 +6,7 @@ import java.text.DecimalFormat;
 import java.util.Locale;
 
 public class SalarioComBonus {
+	@SuppressWarnings("unused")
 	public static void main(String[] args) throws Exception{
 		Locale.setDefault(Locale.US);
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
